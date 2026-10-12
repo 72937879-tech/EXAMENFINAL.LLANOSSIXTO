@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admisión | Innovación Social y Desarrollo Comunitario</title>
+  <meta name="description" content="Proceso de admisión, fechas importantes y formulario de inscripción en línea para la Licenciatura en Innovación Social y Desarrollo Comunitario.">
+  <meta name="theme-color" content="#9C2B4E">
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&amp;family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="salto-enlace" href="#contenido-principal">Saltar al contenido principal</a>
+
+  <header class="cabecera">
+    <nav class="navbar navbar-expand-lg" aria-label="Navegación principal">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <svg width="40" height="40" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><rect width="64" height="64" rx="14" fill="#2E1F2B"/><circle cx="32" cy="22" r="8" fill="#C89B3C"/><path d="M14 50c0-11 8-18 18-18s18 7 18 18z" fill="#F1C6C6"/><circle cx="14" cy="30" r="5" fill="#9C2B4E"/><circle cx="50" cy="30" r="5" fill="#9C2B4E"/></svg>
+          <span>Ciencias Sociales<small>Innovación Social · Nuevo programa</small></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false" aria-label="Abrir o cerrar el menú de navegación">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu-principal">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="programa.html">El programa</a></li>
+            <li class="nav-item"><a class="nav-link" href="admision.html" aria-current="page">Admisión</a></li>
+          </ul>
+          <a class="btn btn-primary ms-lg-3 mb-3 mb-lg-0" href="admision.html#formulario">Inscríbete</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contenido-principal">
+    <div class="encabezado-pagina">
+      <div class="container">
+        <nav aria-label="Ruta de navegación"><ol class="breadcrumb mb-3"><li class="breadcrumb-item"><a href="index.html">Inicio</a></li><li class="breadcrumb-item active" aria-current="page">Admisión</li></ol></nav>
+        <h1 class="mb-2">Admisión 2027</h1>
+        <p class="mb-0 fs-5">Cuatro pasos sencillos para asegurar tu vacante.</p>
+      </div>
+    </div>
+
+    <section class="seccion" aria-labelledby="titulo-pasos">
+      <div class="container">
+        <div class="row g-4 g-lg-5">
+          <div class="col-12 col-lg-6">
+            <h2 id="titulo-pasos" class="mb-4">Proceso de admisión</h2>
+            <ol class="pasos">
+              <li><h3 class="h5">Completa el formulario</h3><p class="mb-0 text-suave">Registra tus datos personales y elige tu modalidad de ingreso.</p></li>
+              <li><h3 class="h5">Revisa tu correo</h3><p class="mb-0 text-suave">Te enviaremos la confirmación y la lista de documentos requeridos.</p></li>
+              <li><h3 class="h5">Presenta tus documentos</h3><p class="mb-0 text-suave">Copia de DNI, certificado de estudios y una foto reciente.</p></li>
+              <li><h3 class="h5">Rinde la evaluación</h3><p class="mb-0 text-suave">Prueba de razonamiento y una breve entrevista personal.</p></li>
+            </ol>
+          </div>
+          <div class="col-12 col-lg-6">
+            <h2 class="mb-4" id="titulo-fechas">Fechas importantes</h2>
+            <div class="table-responsive">
+              <table class="table table-striped align-middle">
+                <caption>Cronograma del proceso de admisión 2027</caption>
+                <thead><tr><th scope="col">Etapa</th><th scope="col">Fecha</th></tr></thead>
+                <tbody>
+                  <tr><th scope="row">Inicio de inscripciones</th><td>1 de noviembre de 2026</td></tr>
+                  <tr><th scope="row">Cierre de inscripciones</th><td>15 de diciembre de 2026</td></tr>
+                  <tr><th scope="row">Evaluación y entrevista</th><td>10 de enero de 2027</td></tr>
+                  <tr><th scope="row">Publicación de resultados</th><td>20 de enero de 2027</td></tr>
+                  <tr><th scope="row">Inicio de clases</th><td>15 de marzo de 2027</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion seccion--alt" id="formulario" aria-labelledby="titulo-form">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-10 col-xl-8">
+            <h2 id="titulo-form" class="mb-2">Formulario de inscripción</h2>
+            <p class="text-suave mb-4">Los campos marcados con <span class="obligatorio" aria-hidden="true">*</span><span class="visually-hidden">asterisco</span> son obligatorios.</p>
+
+            <div id="resumen-errores" class="alert alert-danger d-none" role="alert" tabindex="-1"></div>
+            <div id="mensaje-exito" class="alert alert-success d-none" role="status" tabindex="-1"></div>
+
+            <form id="form-inscripcion" class="formulario" novalidate>
+              <div class="row g-3">
+            <div class="col-12 col-md-6">
+              <label for="nombres" class="form-label">Nombres y apellidos <span class="obligatorio" aria-hidden="true">*</span></label>
+              <input type="text" class="form-control" id="nombres" name="nombres" required aria-describedby="nombres-ayuda nombres-error" autocomplete="name" minlength="3">
+              <div id="nombres-ayuda" class="form-text">Como figura en tu DNI.</div>
+              <div id="nombres-error" class="invalid-feedback" role="alert">Escribe tu nombre completo (mínimo 3 letras).</div>
+            </div>
+            <div class="col-12 col-md-6">
+              <label for="dni" class="form-label">DNI <span class="obligatorio" aria-hidden="true">*</span></label>
+              <input type="text" class="form-control" id="dni" name="dni" required aria-describedby="dni-ayuda dni-error" inputmode="numeric" pattern="[0-9]{8}" maxlength="8" autocomplete="off">
+              <div id="dni-ayuda" class="form-text">8 dígitos, solo números.</div>
+              <div id="dni-error" class="invalid-feedback" role="alert">El DNI debe tener exactamente 8 números.</div>
+            </div>
+            <div class="col-12 col-md-6">
+              <label for="correo" class="form-label">Correo electrónico <span class="obligatorio" aria-hidden="true">*</span></label>
+              <input type="email" class="form-control" id="correo" name="correo" required aria-describedby="correo-ayuda correo-error" autocomplete="email">
+              <div id="correo-ayuda" class="form-text">Ejemplo: nombre@correo.com</div>
+              <div id="correo-error" class="invalid-feedback" role="alert">Ingresa un correo válido, por ejemplo nombre@correo.com.</div>
+            </div>
+            <div class="col-12 col-md-6">
+              <label for="celular" class="form-label">Celular <span class="obligatorio" aria-hidden="true">*</span></label>
+              <input type="tel" class="form-control" id="celular" name="celular" required aria-describedby="celular-ayuda celular-error" inputmode="numeric" pattern="9[0-9]{8}" maxlength="9" autocomplete="tel-national">
+              <div id="celular-ayuda" class="form-text">9 dígitos, empieza con 9.</div>
+              <div id="celular-error" class="invalid-feedback" role="alert">El celular debe tener 9 dígitos y empezar con 9.</div>
+            </div>
+                <div class="col-12 col-md-6">
+                  <label for="procedencia" class="form-label">Institución de procedencia <span class="obligatorio" aria-hidden="true">*</span></label>
+                  <select class="form-select" id="procedencia" name="procedencia" required aria-describedby="procedencia-error">
+                    <option value="" selected disabled>Selecciona una opción</option>
+                    <option>Colegio público</option>
+                    <option>Colegio privado</option>
+                    <option>Otra universidad</option>
+                    <option>Instituto superior</option>
+                  </select>
+                  <div id="procedencia-error" class="invalid-feedback" role="alert">Selecciona tu institución de procedencia.</div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <fieldset aria-describedby="modalidad-error">
+                    <legend class="form-label fs-6">Modalidad de ingreso <span class="obligatorio" aria-hidden="true">*</span></legend>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="modalidad" id="mod-ordinario" value="Ordinario" required><label class="form-check-label" for="mod-ordinario">Examen ordinario</label></div>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="modalidad" id="mod-beca" value="Beca"><label class="form-check-label" for="mod-beca">Beca por mérito</label></div>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="modalidad" id="mod-traslado" value="Traslado"><label class="form-check-label" for="mod-traslado">Traslado externo</label></div>
+                    <div id="modalidad-error" class="invalid-feedback" role="alert">Elige una modalidad de ingreso.</div>
+                  </fieldset>
+                </div>
+                <div class="col-12">
+                  <label for="mensaje" class="form-label">¿Por qué te interesa este programa? <span class="text-suave fw-normal">(opcional)</span></label>
+                  <textarea class="form-control" id="mensaje" name="mensaje" rows="4" maxlength="300" aria-describedby="mensaje-contador"></textarea>
+                  <div id="mensaje-contador" class="form-text" aria-live="polite">0 de 300 caracteres</div>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="acepto" name="acepto" required aria-describedby="acepto-error">
+                    <label class="form-check-label" for="acepto">Acepto el tratamiento de mis datos personales para fines del proceso de admisión. <span class="obligatorio" aria-hidden="true">*</span></label>
+                    <div id="acepto-error" class="invalid-feedback" role="alert">Debes aceptar el tratamiento de datos para continuar.</div>
+                  </div>
+                </div>
+                <div class="col-12 d-flex flex-column flex-sm-row gap-2">
+                  <button type="submit" class="btn btn-primary">Enviar inscripción</button>
+                  <button type="reset" class="btn btn-outline-primary">Limpiar formulario</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion" aria-labelledby="titulo-faq">
+      <div class="container">
+        <h2 id="titulo-faq" class="mb-4">Preguntas frecuentes</h2>
+        <div class="accordion" id="faq">
+          <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">¿Existen becas disponibles?</button></h3><div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faq"><div class="accordion-body">Sí. Ofrecemos becas por mérito académico que cubren hasta el 50 % de la pensión.</div></div></div>
+          <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">¿Puedo postular si aún estoy en el último año de colegio?</button></h3><div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faq"><div class="accordion-body">Sí, siempre que presentes tu constancia de matrícula y concluyas tu secundaria antes del inicio de clases.</div></div></div>
+          <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">¿Hay apoyo para estudiantes con discapacidad?</button></h3><div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faq"><div class="accordion-body">Sí. Contamos con ajustes razonables en la evaluación y materiales accesibles. Indícalo en tu entrevista o escríbenos al correo de admisión.</div></div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie py-5 mt-0">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-12 col-md-5">
+          <h2>Facultad de Ciencias Sociales</h2>
+          <p class="text-suave mb-0">Formamos profesionales que transforman realidades sociales con evidencia, ética y trabajo en comunidad.</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <h2>Navegación</h2>
+          <ul class="list-unstyled mb-0">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="programa.html">El programa</a></li>
+            <li><a href="admision.html">Admisión</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-4">
+          <h2>Contacto</h2>
+          <address class="mb-0 text-suave">
+            Av. Universitaria 1234, Lima<br>
+            <a href="mailto:admision.sociales@ejemplo.edu.pe">admision.sociales@ejemplo.edu.pe</a><br>
+            <a href="tel:+5112345678">(01) 234-5678</a>
+          </address>
+        </div>
+      </div>
+      <hr class="border-light opacity-25 my-4">
+      <p class="small text-suave mb-0">© 2026 Facultad de Ciencias Sociales · Proyecto académico — Examen Final PA4, Llanos.</p>
+    </div>
+  </footer>
+
+  <button type="button" id="boton-subir" class="btn-subir" aria-label="Volver al inicio de la página">↑</button>
+
+  <script src="vendor/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
